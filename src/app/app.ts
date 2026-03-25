@@ -10,5 +10,5 @@ import { FooterComponent } from './layout/footer';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('CN Otica AI');
+  protected readonly title = signal('CN Ótica');
 }
