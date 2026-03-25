@@ -12,9 +12,9 @@ import { Component } from '@angular/core';
           <p class="text-secondary mx-auto mb-5" style="max-width: 600px;">Explore o futuro da moda e tecnologia. Cada par é uma obra-prima de engenharia e estilo.</p>
         </div>
 
-        <div class="row g-5 pt-2">
+        <div class="row g-4 g-lg-5 pt-2">
           @for (item of products; track item.name) {
-            <div class="col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="product-card bg-dark rounded-5 overflow-hidden border border-secondary border-opacity-10 h-100 d-flex flex-column">
                 <div class="product-img-wrapper position-relative overflow-hidden bg-black d-flex align-items-center justify-content-center p-4">
                   <img [src]="item.image" [alt]="item.name" class="img-fluid product-img">

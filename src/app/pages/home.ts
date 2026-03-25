@@ -8,18 +8,18 @@ import { RouterLink } from '@angular/router';
   template: `
     <div class="hero-section text-white d-flex align-items-center overflow-hidden">
       <div class="container position-relative py-5">
-        <div class="row align-items-center">
+        <div class="row align-items-center text-center text-lg-start">
           <div class="col-lg-6 mb-5 mb-lg-0 z-1">
-            <h1 class="display-2 fw-bold mb-4 animate-slide-in">CN <span class="text-success">Ótica</span>.</h1>
-            <p class="lead mb-5 opacity-75 fs-4">A mais alta tecnologia óptica encontra o design de luxo. Nossos óculos são feitos para quem vê o mundo em alta definição.</p>
-            <div class="d-flex gap-3">
-              <a routerLink="/shop" class="btn btn-success btn-lg px-5 py-3 rounded-pill fw-bold shadow-green">EXPLORAR LOJA</a>
-              <button class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fw-bold border-2">SABER MAIS</button>
+            <h1 class="display-3 display-lg-2 fw-bold mb-4 animate-slide-in">CN <span class="text-success">Ótica</span>.</h1>
+            <p class="lead mb-5 opacity-75 fs-5 fs-lg-4">A mais alta tecnologia óptica encontra o design de luxo. Nossos óculos são feitos para quem vê o mundo em alta definição.</p>
+            <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+              <a routerLink="/shop" class="btn btn-success btn-lg px-4 px-lg-5 py-2 py-lg-3 rounded-pill fw-bold shadow-green">EXPLORAR LOJA</a>
+              <button class="btn btn-outline-light btn-lg px-4 px-lg-5 py-2 py-lg-3 rounded-pill fw-bold border-2">SABER MAIS</button>
             </div>
           </div>
-          <div class="col-lg-6 position-relative z-1">
+          <div class="col-lg-6 position-relative z-1 mt-5 mt-lg-0">
             <div class="hero-bg-glow"></div>
-            <img src="assets/images/aviator.png" alt="Aviator Green" class="img-fluid rounded-4 shadow-lg hero-img animate-float">
+            <img src="assets/images/aviator.png" alt="Aviator Green" class="img-fluid rounded-4 shadow-lg hero-img animate-float mx-auto d-block">
           </div>
         </div>
       </div>
