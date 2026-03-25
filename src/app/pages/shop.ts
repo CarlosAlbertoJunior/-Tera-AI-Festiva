@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       <div class="container py-5">
         <div class="text-center mb-5 mt-4">
           <span class="text-success fw-bold text-uppercase tracking-widest small">Nossa Seleção</span>
-          <h2 class="display-4 fw-bold mb-3 mt-2">Coleção <span class="text-success">CyberOptic</span> 2026</h2>
+          <h2 class="display-4 fw-bold mb-3 mt-2">Coleção <span class="text-success">CN Otica AI</span> 2026</h2>
           <p class="text-secondary mx-auto mb-5" style="max-width: 600px;">Explore o futuro da moda e tecnologia. Cada par é uma obra-prima de engenharia e estilo.</p>
         </div>
 

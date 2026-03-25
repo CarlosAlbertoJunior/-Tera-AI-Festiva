@@ -10,7 +10,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" routerLink="/">
           <i class="bi bi-eye-fill me-2 text-success"></i>
-          <span class="fw-bold tracking-wider text-uppercase">Tera<span class="text-success">Optics</span></span>
+          <span class="fw-bold tracking-wider text-uppercase">CN <span class="text-success">Otica AI</span></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>

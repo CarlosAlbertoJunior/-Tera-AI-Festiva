@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
       <div class="container position-relative py-5">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0 z-1">
-            <h1 class="display-2 fw-bold mb-4 animate-slide-in">Enxergue além do <span class="text-success">Óbvio</span>.</h1>
+            <h1 class="display-2 fw-bold mb-4 animate-slide-in">CN <span class="text-success">Otica AI</span>.</h1>
             <p class="lead mb-5 opacity-75 fs-4">A mais alta tecnologia óptica encontra o design de luxo. Nossos óculos são feitos para quem vê o mundo em alta definição.</p>
             <div class="d-flex gap-3">
               <a routerLink="/shop" class="btn btn-success btn-lg px-5 py-3 rounded-pill fw-bold shadow-green">EXPLORAR LOJA</a>
